@@ -47,19 +47,10 @@ section.mainBody div {
 }
 .text-para-box {
   margin: 32px 0px;
-  span {
+  button span{
     letter-spacing: 0.15em;
+  }
+  span {
     font-family: "Poppins";
   }
-}
-
-
-@media(max-width:1024px){
- .heroSection{
-   .imageBox{
-     img{
-       height: 600px;
-     }
-   }
- }
 }
