@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://unpkg.com/typeface-montserrat");
+  font-style: normal; }
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/fonts/Poppins/Poppins-Regular.ttf");
+  font-style: normal; }
+@font-face {
+  font-family: "Amerigo BT";
+  src: url("../../assets/fonts/AmerigoBT/AmerigoBT.ttf");
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

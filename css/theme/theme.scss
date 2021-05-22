@@ -1,0 +1,73 @@
+@import "../fonts/fonts.scss";
+@import "../colours/colours.scss";
+
+.Gris-azulado{
+  color: $Gris-azulado;
+}
+.Green-Teal{
+  color: $Green-Teal;
+}
+.white{
+  background-color:$white;
+}
+.Gris-azulado-bg{
+  background-color: $primary-light;
+}
+.gray-light-300{
+  background: $gray-light-300;
+}
+h1 {
+  font-family: "Amerigo BT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+}
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+h4 {    
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+button {
+  background: $white;
+  border: 4px solid;
+  border-radius: 64px;
+  width: 202px;
+  padding: 0px 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+@media(max-width:767px){
+  h1{
+    font-size: 36px;
+  }
+}
